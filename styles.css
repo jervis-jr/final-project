@@ -14,7 +14,13 @@
   max-width: 1690px;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
+
+.intro-img {
+  width: 400px;
+}
+
 .logo {
   padding: 45px;
 }
@@ -82,8 +88,7 @@
 .icons {
   display: flex;
   gap: 15px;
-  position: relative;
-  left: 950px;
+  margin-top: 50px;
 }
 .procent {
   color: #e93656;
@@ -95,8 +100,7 @@
 }
 .whole-div {
   position: absolute;
-  left: 1500px;
-  bottom: 40px;
+  right: 50px;
 }
 
 .empty-div {
@@ -153,12 +157,71 @@
 }
 .bio-img {
   width: 480px;
-  height: 600px;
+  height: 650px;
 }
 .section-min {
   width: 100%;
   height: 210px;
 }
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.skill-p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.skill-wraper {
+  position: relative;
+}
+.skill-100 {
+  width: 250px;
+  height: 10px;
+  background-color: #f0f0f0;
+  position: absolute;
+}
+
+.skill-design {
+  width: 0px;
+  height: 10px;
+  background-color: #e93656;
+  position: absolute;
+  z-index: 100;
+  transition: width 2s;
+}
+.skill-photography {
+  width: 0px;
+  height: 10px;
+  background-color: #e93656;
+  position: absolute;
+  z-index: 100;
+  transition: width 2s;
+}
+.skill-marking {
+  width: 0px;
+  height: 10px;
+  background-color: #e93656;
+  position: absolute;
+  z-index: 100;
+  transition: width 2s;
+}
+.skill-photoshopy {
+  width: 0px;
+  height: 10px;
+  background-color: #e93656;
+  position: absolute;
+  z-index: 100;
+  transition: width 2s;
+}
+
+.skill-percent {
+  color: #e93656;
+}
+
+/* section 3 */
 .section-minintro {
   background-color: #131a36;
 }
@@ -176,9 +239,6 @@
   height: 90px;
   border: 2px dashed white;
   border-radius: 50%;
-}
-.icon-cont {
-  text-align: center;
 }
 .condact-card {
   display: flex;
