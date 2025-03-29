@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+}
+.introduction {
+  background-color: #dddddd;
+}
+.intro-container {
+  max-width: 1690px;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  padding: 45px;
+}
+.roca-h1 {
+  color: #1a1a1a;
+  letter-spacing: 1.2px;
+  font-size: 40px;
+}
+.point {
+  background-color: #0081ff;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-bottom: 9px;
+}
+.logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-text {
+  color: #b3b3b3;
+  font-size: 13px;
+}
+.logo-div {
+  display: flex;
+  align-items: end;
+}
+.about-me {
+  padding: 30px;
+}
+.logo-01 {
+  color: #1c1c1c;
+  letter-spacing: 4.75px;
+  font-size: 158px;
+  position: absolute;
+}
+.logo-aboutme {
+  color: #373737;
+  font-size: 43px;
+  letter-spacing: 1.3px;
+  position: relative;
+  top: 60px;
+  right: 18px;
+}
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 250px;
+}
+.greeting {
+  color: #212121;
+  font-size: 50px;
+  letter-spacing: 0.75px;
+}
+.my-name {
+  color: #212121;
+  font-size: 71px;
+  letter-spacing: 1.06px;
+}
+.my-job {
+  color: #212121;
+  font-size: 24px;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  left: 950px;
+}
+.procent {
+  color: #e93656;
+  font-size: 24px;
+}
+.satisfied {
+  color: #212121;
+  font-size: 24px;
+}
+.whole-div {
+  position: absolute;
+  left: 1500px;
+  bottom: 40px;
+}
+
+.empty-div {
+  background-color: #e93656;
+  width: 340px;
+  height: 6px;
+}
+.supported {
+  display: flex;
+}
+
+/* section2 */
+.my-bio {
+  max-width: 1690px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  margin: 130px auto;
+  gap: 70px;
+  align-items: center;
+}
+.biography {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  align-items: end;
+}
+.hire-me {
+  width: 152px;
+  height: 50px;
+  background-color: #e93656;
+  align-items: end;
+}
+.hire-color {
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px;
+}
+.myname-h2 {
+  color: #222222;
+  font-size: 40px;
+}
+.bio {
+  color: #daae19;
+  font-size: 14px;
+  text-align: end;
+}
+.my-biography {
+  color: #555555;
+  font-size: 15px;
+  letter-spacing: 0.45px;
+  width: 300px;
+}
+.bio-img {
+  width: 480px;
+  height: 600px;
+}
+.section-min {
+  width: 100%;
+  height: 210px;
+}
+.section-minintro {
+  background-color: #131a36;
+}
+.contact-p {
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0.75px;
+}
+.contact-a {
+  text-decoration: none;
+  color: #dfdfdf;
+}
+.icon-div {
+  width: 90px;
+  height: 90px;
+  border: 2px dashed white;
+  border-radius: 50%;
+}
+.icon-cont {
+  text-align: center;
+}
+.condact-card {
+  display: flex;
+  gap: 15px;
+}
+.conntact-info {
+  display: flex;
+  flex-direction: column;
+}
+.contacts-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
